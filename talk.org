@@ -1,0 +1,188 @@
+#+TITLE: How playing Go will make you a better Agilist
+#+SUBTITLE: Weiqi: The perfect abstraction
+#+DATE: 2015/03/15
+#+AUTHOR: Aldric Giacomoni
+#+EMAIL: trevoke@gmail.com
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
+#+OPTIONS: e:t email:nil f:t inline:t num:nil p:nil pri:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:nil todo:t |:t
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+USE_PRETTIFY: false
+#+USE_MATHJAX: false
+#+USE_BUILDS: true
+
+#+GOOGLE_PLUS: https://plus.google.com/+AldricGiacomoni
+#+COMPANY: Stride NYC
+#+WWW: http://blog.trevoke.net
+#+GITHUB: http://github.com/Trevoke
+#+TWITTER: Trevoke
+
+* Hi! Ready to /GO/ ?
+... I couldn't resist.
+
+If you're here for the programming language, sorry. Blame Google.
+** I'm Aldric
+French, Italian, martial artist, software developer, go player, book reader, process coach, ...
+
+You can't call me Al, but you /can/ keep your hat on.
+
+** Today we'll talk about:
+- What Go is
+- How it relates to Agile
+- What a good decision is
+
+** What is the game of go?
+Go is a ~3,000-year-old Chinese board game.
+#+ATTR_HTML: :class build
+ - It's a zero-sum game
+ - It's a complete information game
+ - It's turn-based
+** Why do you care?
+Over the millennia, we've built a language to talk about Go. This language allows us to clearly
+#+ATTR_HTML: :class build
+- Identify and understand the situation
+- Make decisions
+
+Whereas to do Agile well, you have to...
+
+... Oh wait. Sound familiar? [fn:1]
+** You can only learn X by doing X
+That's a systemic failure to encapsulate the necessary lessons.
+
+The systemic failure is over! *EVERYBODY CHEER!* /You can buy me a beer later./
+#+ATTR_HTML: :class build
+- Code? Code kata!
+- Pairing? Pairing exercises!
+- Agile?
+  - In Agile, we have, e.g., Jim Shore's book[fn:2], and the Agile Games.
+  - And now there's Go!
+** How will Go be useful?
+| Game             | Length of feedback loop |
+|------------------+-------------------------|
+| Game of Go       | 10-90 min               |
+| Software project | ?? years                |
+
+You can therefore practice your mindset, experiment with applications, and get feedback on the quality of your decision-making.
+** It provides a safe environment to fail quickly.
+** Yeah, but really, why do you say they're the same?
+Well, here are a few things that are true in Go:
+#+ATTR_HTML: :class build
+- You will never know less than you do now
+- The right time to act is right before it's too late (Delay a decision until the last responsible moment)
+- In the end, only the points matter, but getting there can't be about the points
+** What is a good decision?
+#+ATTR_HTML: :class build
+- Better than other decisions
+- Gives more options
+- Limits opponent's options
+- Results in a win, whether direct or indirect
+- Manages resources well
+- Efficient: if it can accomplish more than one thing well, it should
+- Allows for other good decisions
+** Go's framework for decision-making
+#+ATTR_HTML: :class build
+- A move is either *sente* or *gote* (takes or loses initiative)
+- Three questions:
+  - Am I OK? (Is my team OK? Tensions, process, interaction with company, ...)
+  - Is my opponent OK? (How's the code? Are there blockers?)
+  - What is the biggest move? (What is the most valuable thing?)
+- Another perspective:
+  - First play urgent moves
+  - then important moves
+  - then big moves.
+** More ideas from Go
+#+ATTR_HTML: :class build
+- Territory vs. Influence profit now vs. profit later
+- Thickness very powerful -- leave it alone, play away from it, benefit later
+- Tesuji an unexpected move with excellent consequences
+- Sabaki: handling a poor local situation well, with a short-term sacrifice that avoids negative long-term consequences
+- Miai: two moves with the same value. If one player plays one, the other player will play the other.
+** Accept potential
+When you begin a project and you make the first decision, accept that many things are undefined, and that is the way things should be. Accept this potential and allow it to be realized (literally: become reality) in its own time.
+
+You know: delay until the last responsible moment.
+** The empty board is like the Vision^tm of the project
+The world's your oyster, and you can shape the project to be anything. All the decisions have yet to be made.
+** Early decisions are more important than later ones
+Every decision early on opens and closes so many future decisions. Later decisions are weighted by the consequences of the prior decisions and can affect our world less.
+** Every move is a question and an answer
+You get data back with any move, it's up to you to do something valuable with it.
+
+Analytics are nice. But if you misuse them, it would be better not to have them.
+** Territory
+Go is about surrounding territory.
+- White is more flexible, because it has a loose framework
+- Black has a better position for territory
+- You trade off influence versus territory, but in the long run, only territory makes points
+
+*Only delivered value is worth counting.*
+
+** There is an *Atomic Good*
+You know: like *money in your pocket*.
+
+Groups with two separate open spaces are said to have "two eyes" and to be alive. They can't be captured. In the long run, that's what you want.
+
+However, if you just build groups with two single open spaces, you're wasting your time.
+
+The board is huge. Remember that.
+** Some shapes are more efficient
+There are code patterns, business patterns, and shape patterns. Get used to them. They exist for a reason.
+
+They allow you to do better than just the *Atomic Good*.
+** Proverbs
+- The enemy's key point is yours
+- Play on the point of symmetry
+- Sente gains nothing
+- Beware of going back to patch up
+- When in doubt, Tenuki
+- Capture stones trapped in a ladder at the earliest opportunity
+- Urgent points before big points
+- Play away from thickness
+- Don't use thickness to make territory
+- Make territory while attacking
+- A ponnuki is worth thirty points
+- Make a fist before striking
+- Do not defend territories open on two sides (Don't try to enclose when you have an open skirt)
+- Attach to the stronger stone in a pincer
+- Make a feint to the east while attacking in the west
+- A rich man should not pick quarrels
+- Play kikashi before living
+- Reduction Is Worth As Much As An Invasion
+- Invade a moyo one move before it becomes territory
+- Don't attach when attacking or Don't touch weak stones
+- Make weak walk along with weak, Korean proverb
+- Five groups might live but the sixth will die
+- Big dragons never die
+- Grab the shape points in kikashi
+- Give your opponent what he wants
+- Avoid ippoji
+- Sacrifice plums for peaches and Don't trade a dollar for a penny
+- Don't throw an egg at a wall
+- There are no ko threats in the opening
+- Strengthening your own weak group makes your opponent's weaker
+- Don't go fishing while your house is on fire
+- Never upset your star-point stones
+- Greed for the win takes the win away
+- High move (4th line) for influence, low move (3rd line) for territory
+- If you have lost four corners, resign
+- Don't push from behind.
+- Don't push along the second line.
+- Riding the tiger it is difficult to get off or be aware of amarigatachi
+- Lose Your First 50 Games as Quickly as Possible
+
+** Thank you!
+:PROPERTIES:
+:SLIDE:    thank-you-slide segue
+:ASIDE:    right
+:ARTICLE:  flexbox vleft auto-fadein
+:END:
+** Footnotes
+
+[fn:1] Hat-tip to Colonel John Boyd's OODA loop: Observe-Orient-Decide-Act
+
+[fn:2] Do we call that the Agile Bible yet?
