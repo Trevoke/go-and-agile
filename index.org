@@ -134,47 +134,6 @@ The board is huge. Remember that.
 There are code patterns, business patterns, and shape patterns. Get used to them. They exist for a reason.
 
 They allow you to do better than just the *Atomic Good*.
-** Proverbs
-- The enemy's key point is yours
-- Play on the point of symmetry
-- Sente gains nothing
-- Beware of going back to patch up
-- When in doubt, Tenuki
-- Capture stones trapped in a ladder at the earliest opportunity
-- Urgent points before big points
-- Play away from thickness
-- Don't use thickness to make territory
-- Make territory while attacking
-- A ponnuki is worth thirty points
-- Make a fist before striking
-- Do not defend territories open on two sides (Don't try to enclose when you have an open skirt)
-- Attach to the stronger stone in a pincer
-- Make a feint to the east while attacking in the west
-- A rich man should not pick quarrels
-- Play kikashi before living
-- Reduction Is Worth As Much As An Invasion
-- Invade a moyo one move before it becomes territory
-- Don't attach when attacking or Don't touch weak stones
-- Make weak walk along with weak, Korean proverb
-- Five groups might live but the sixth will die
-- Big dragons never die
-- Grab the shape points in kikashi
-- Give your opponent what he wants
-- Avoid ippoji
-- Sacrifice plums for peaches and Don't trade a dollar for a penny
-- Don't throw an egg at a wall
-- There are no ko threats in the opening
-- Strengthening your own weak group makes your opponent's weaker
-- Don't go fishing while your house is on fire
-- Never upset your star-point stones
-- Greed for the win takes the win away
-- High move (4th line) for influence, low move (3rd line) for territory
-- If you have lost four corners, resign
-- Don't push from behind.
-- Don't push along the second line.
-- Riding the tiger it is difficult to get off or be aware of amarigatachi
-- Lose Your First 50 Games as Quickly as Possible
-
 ** Thank you!
 :PROPERTIES:
 :SLIDE:    thank-you-slide segue
