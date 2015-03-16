@@ -1,7 +1,7 @@
-#+TITLE: How playing Go will make you a better Agilist
-#+SUBTITLE: Weiqi: The perfect abstraction
+#+TITLE: Make better decisions by playing Go
+#+SUBTITLE: Go: The perfect abstraction
 #+DATE: 2015/03/15
-#+AUTHOR: Aldric Giacomoni
+#+AUTHOR: Aldric "Trevoke" Giacomoni
 #+EMAIL: trevoke@gmail.com
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
 #+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
@@ -22,99 +22,166 @@
 #+GITHUB: http://github.com/Trevoke
 #+TWITTER: Trevoke
 
-* Hi! Ready to /GO/ ?
-... I couldn't resist.
+* Make better decisions by playing Go
+Or your money back(!).
 
-If you're here for the programming language, sorry. Blame Google.
-** I'm Aldric
-French, Italian, martial artist, software developer, go player, book reader, process coach, ...
+! Refunds will be processed in bicycles. Suitable for outdoor use. For use by traine dpersonnel only. Has been found to cause cancer in laboratory mice. High in sodium. Remove the plastic wrapper. Take one capsule by mouth three times daily until gone. Use like regular soap. Not to be used in a bathroom. Do not use while sleeping. Do not eat. Flammable. Wearing of this garment does not enable you to fly. This product is not intended for use as a dental drill.
+** Oh hai!
+I'm *Trevoke*.
+I work for Stride NYC.
+** This talk is about
+How playing Go helps you make decisions
 
-You can't call me Al, but you /can/ keep your hat on.
-
-** Today we'll talk about:
-- What Go is
-- How it relates to Agile
-- What a good decision is
-
-** What is the game of go?
-Go is a ~3,000-year-old Chinese board game.
-#+ATTR_HTML: :class build
- - It's a zero-sum game
- - It's a complete information game
- - It's turn-based
-** Why do you care?
-Over the millennia, we've built a language to talk about Go. This language allows us to clearly
-#+ATTR_HTML: :class build
-- Identify and understand the situation
-- Make decisions
-
-Whereas to do Agile well, you have to...
-
-... Oh wait. Sound familiar? [fn:1]
-** You can only learn X by doing X
-That's a systemic failure to encapsulate the necessary lessons.
-
-The systemic failure is over! *EVERYBODY CHEER!* /You can buy me a beer later./
-#+ATTR_HTML: :class build
-- Code? Code kata!
-- Pairing? Pairing exercises!
-- Agile?
-  - In Agile, we have, e.g., Jim Shore's book[fn:2], and the Agile Games.
-  - And now there's Go!
-** How will Go be useful?
-| Game             | Length of feedback loop |
-|------------------+-------------------------|
-| Game of Go       | 10-90 min               |
-| Software project | ?? years                |
-
-You can therefore practice your mindset, experiment with applications, and get feedback on the quality of your decision-making.
-** It provides a safe environment to fail quickly.
-** Yeah, but really, why do you say they're the same?
-Well, here are a few things that are true in Go:
-#+ATTR_HTML: :class build
-- You will never know less than you do now
-- The right time to act is right before it's too late (Delay a decision until the last responsible moment)
-- In the end, only the points matter, but getting there can't be about the points
-** What is a good decision?
+Which is good because Agile is all about making decisions
+** The problem: making good decisions
+A conundrum wrapped in a riddle something-something enigma.
+*** What is a good decision?
 #+ATTR_HTML: :class build
 - Better than other decisions
 - Gives more options
 - Limits opponent's options
 - Results in a win, whether direct or indirect
 - Manages resources well
-- Efficient: if it can accomplish more than one thing well, it should
+- Efficient: a decision can accomplish many things
 - Allows for other good decisions
+*** Why is making good decisions hard?
+Here's what you need to understand your decision:
+#+ATTR_HTML: :class build
+- Identify the relevant elements of the situation
+- Understand the relevant elements of the situation
+- Make the decision
+- Record the consequences of the decision
+- Understand the consequences of the decisions
+*** Decisions have far-reaching consequences
+Examples:
+- What language do you use?
+- Who do you hire?
+- How do you implement the process you want to follow?
+- Who facilitates a retrospective?
+- What analytics data do you gather?
+*** So how do you get feedback on your decisions?
+The world's really quite complex, so it's rather hard to have anything better than heuristics from years of doing things, screwing up and paying attention.
+
+E.g.:
+
+- Jim Shore's /Art of Agile Development/
+- Andrew Hunt and Dave Thomas' /The Pragmatic Programmer/
+** Enter Go
+A 3,000-year-old Chinese board game all about strategy
+
+| Activity         | Duration           |
+|------------------+--------------------|
+| Game of Go       | 10-90 minutes      |
+| Software project | 1 month - ?? years |
+
+Play Go: get a much shorter feedback loop on your decision-making process.
+*** Here's the board at the start of the game
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 300px
+[[file:images/board-00-moves.jpg]]
+#+END_CENTER
+*** Here's the board with a few stones on it
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 300px
+[[file:images/board-10-moves.jpg]]
+#+END_CENTER
+*** A few more stones
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 300px
+[[file:images/board-20-moves.jpg]]
+#+END_CENTER
+*** A few more stones
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 300px
+[[file:images/board-35-moves.jpg]]
+#+END_CENTER
+*** Did you notice that the stones do not move?
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 300px
+[[file:images/board-35-moves-highlighted.jpg]]
+#+END_CENTER
+You get to see your decisions and their consequences for the entire game!
+*** Well, not quite. Stones can be captured.
+
+board before capture
+
+then board after capture
+
+*** Thankfully, games can be recorded!
+*** And therefore they can be reviewed
+*** Which means you can get feedback on decisions
+
+I play X and opponent plays Y
+
+*** And series of decisions
+
+wow, these twelve moves really didn't turn out well for me
+
+*** And you can try other decisions and series of decisions to examine different outcomes
+
+reviews and variations!
+
+*** Summary of intro: here is why Go is a great tool to review your decision-making process
+** So how does Go work?
+Well, it's a two-player, turn-based game, with very simple rules.
+
+Oh, you want /more/ than that?
+*** The winner is the one who has the most territory
+*** Stones have liberties, no liberties means captured
+*** You can either play a move or pass
+*** You can play anywhere, unless that move would result in your stone being captured (capture happens before being captured)
+*** Play a ko
+
+can't recreate the previous board state - have to move somewhere else
+
+*** When both players in a row choose to pass, the game ends
+*** "Komi" is at least a half-point and helps to break ties
+*** Summary of rules: you put stones down and try to surround territory. It's only difficult because that's what the other player is trying to do, too
+** The story so far
+
+As you find yourself trying to edge out the opponent for control of the board, you have to make many decisions.
+
+The key to improve at Go is to improve your decision-making process.
+
+** Same decisions in Go or during a project
+A few examples.
+*** Only the points ($$$) matter, but getting there's not about the points ($$$)
+*** You will never know less than you know now
+
+You all know that one
+
+The board starts empty and progressively fills up.
+
+*** Delay until the last responsible moment
+
+Accept the potential of the situation and resist the urge to make it real until you need it to become real.
+
+The time to invade an opponent's area is right before it becomes territory.
+
 ** Go's framework for decision-making
 #+ATTR_HTML: :class build
-- A move is either *sente* or *gote* (takes or loses initiative)
-- Three questions:
   - Am I OK? (Is my team OK? Tensions, process, interaction with company, ...)
   - Is my opponent OK? (How's the code? Are there blockers?)
   - What is the biggest move? (What is the most valuable thing?)
-- Another perspective:
-  - First play urgent moves
-  - then important moves
-  - then big moves.
-** More ideas from Go
-#+ATTR_HTML: :class build
-- Territory vs. Influence profit now vs. profit later
-- Thickness very powerful -- leave it alone, play away from it, benefit later
-- Tesuji an unexpected move with excellent consequences
-- Sabaki: handling a poor local situation well, with a short-term sacrifice that avoids negative long-term consequences
-- Miai: two moves with the same value. If one player plays one, the other player will play the other.
-** Accept potential
+    **  A move is either *sente* or *gote* (takes or loses initiative)
+*** Territory vs. Influence profit now vs. profit later
+***  Thickness very powerful -- leave it alone, play away from it, benefit later
+***  Tesuji an unexpected move with excellent consequences
+***  Sabaki: handling a poor local situation well, with a short-term sacrifice that avoids negative long-term consequences
+***  Miai: two moves with the same value. If one player plays one, the other player will play the other.
+*** Accept potential
 When you begin a project and you make the first decision, accept that many things are undefined, and that is the way things should be. Accept this potential and allow it to be realized (literally: become reality) in its own time.
 
 You know: delay until the last responsible moment.
-** The empty board is like the Vision^tm of the project
+*** The empty board is like the Vision^tm of the project
 The world's your oyster, and you can shape the project to be anything. All the decisions have yet to be made.
-** Early decisions are more important than later ones
+*** Early decisions are more important than later ones
 Every decision early on opens and closes so many future decisions. Later decisions are weighted by the consequences of the prior decisions and can affect our world less.
-** Every move is a question and an answer
+*** Every move is a question and an answer
 You get data back with any move, it's up to you to do something valuable with it.
 
 Analytics are nice. But if you misuse them, it would be better not to have them.
-** Territory
+*** Territory
 Go is about surrounding territory.
 - White is more flexible, because it has a loose framework
 - Black has a better position for territory
@@ -122,7 +189,7 @@ Go is about surrounding territory.
 
 *Only delivered value is worth counting.*
 
-** There is an *Atomic Good*
+*** There is an *Atomic Good*
 You know: like *money in your pocket*.
 
 Groups with two separate open spaces are said to have "two eyes" and to be alive. They can't be captured. In the long run, that's what you want.
@@ -130,7 +197,7 @@ Groups with two separate open spaces are said to have "two eyes" and to be alive
 However, if you just build groups with two single open spaces, you're wasting your time.
 
 The board is huge. Remember that.
-** Some shapes are more efficient
+*** Some shapes are more efficient
 There are code patterns, business patterns, and shape patterns. Get used to them. They exist for a reason.
 
 They allow you to do better than just the *Atomic Good*.
@@ -140,8 +207,3 @@ They allow you to do better than just the *Atomic Good*.
 :ASIDE:    right
 :ARTICLE:  flexbox vleft auto-fadein
 :END:
-** Footnotes
-
-[fn:1] Hat-tip to Colonel John Boyd's OODA loop: Observe-Orient-Decide-Act
-
-[fn:2] Do we call that the Agile Bible yet?

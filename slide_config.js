@@ -1,8 +1,8 @@
 var SLIDE_CONFIG = {
    // Slide Settings
    settings: {
-     title: 'How playing Go will make you a better Agilist', 
-     subtitle: 'Weiqi: The perfect abstraction', 
+     title: 'Make better decisions by playing Go', 
+     subtitle: 'Go: The perfect abstraction', 
      useBuilds: true, // Default: true. False will turn off slide animation builds. 
      usePrettify: false, // Default: true 
      enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.
@@ -16,7 +16,7 @@ var SLIDE_CONFIG = {
  
    // Author information
    presenters: [{
-     name: 'Aldric Giacomoni', 
+     name: 'Aldric "Trevoke" Giacomoni', 
      company: 'Stride NYC', 
      gplus: 'https://plus.google.com/+AldricGiacomoni', 
      twitter: 'Trevoke', 
