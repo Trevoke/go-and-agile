@@ -25,26 +25,30 @@
 * Make better decisions by playing Go
 Or your money back(!).
 
-! Refunds will be processed in bicycles. Suitable for outdoor use. For use by trained personnel only. Has been found to cause cancer in laboratory mice. High in sodium. Remove the plastic wrapper. Take one capsule by mouth three times daily until gone. Use like regular soap. Not to be used in a bathroom. Do not use while sleeping. Do not eat. Flammable. Wearing of this garment does not enable you to fly. This product is not intended for use as a dental drill.
-** Oh hai!
-I'm *Trevoke*.
-I work for Stride NYC.
-** This talk is about
-How playing Go helps you make decisions
+! Refunds will be processed in bicycles. Suitable for outdoor use. For use by trained personnel only. Has been found to cause cancer in laboratory mice. High in sodium. Remove the plastic wrapper. Take one capsule by mouth three times daily until gone. Use like regular soap. Not to be used in a bathroom. Do not use while sleeping. Do not eat. Flammable. Wearing of this garment does not enable you to fly. Not intended for use as a dental drill.
+** Agile
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 600px
+[[file:images/agile-manifesto.png]]
+#+END_CENTER
+** How is Agile valuable?
+Agile offers the power to have many decision points. Call it pivoting, getting feedback, gathering requirements, doing UX work, whatever.
+** But what's it like to make many decisions?
+It's hard. It sucks. You have to carefully portion the decisions so they don't get too big and unwieldy.
 
-Which is good because Agile is all about making decisions
-** The problem: making good decisions
-A conundrum wrapped in a riddle something-something enigma.
-*** What is a good decision?
+Otherwise you run the risk of getting mired in a large decision. And then everybody's unhappy and you leak money.
+** This talk is about
+How playing Go helps you make many decisions
+
+** What is a good decision?
 #+ATTR_HTML: :class build
-- Better than other decisions
-- Gives more options
-- Limits opponent's options
+- Specific, Measurable, Assignable, Realistic, Time-related (SMART)
+- Opens more good options
+- Limits bad options
 - Results in a win, whether direct or indirect
 - Manages resources well
-- Efficient: a decision can accomplish many things
-- Allows for other good decisions
-*** Why is making good decisions hard?
+- Efficient: a decision can work on many levels
+** Why is making good decisions hard?
 Here's what you need to understand your decision:
 #+ATTR_HTML: :class build
 - Identify the relevant elements of the situation
@@ -52,14 +56,14 @@ Here's what you need to understand your decision:
 - Make the decision
 - Record the consequences of the decision
 - Understand the consequences of the decisions
-*** Decisions have far-reaching consequences
+** Decisions have far-reaching consequences
 Examples:
-- What language do you use?
+- What tech stack do you use?
 - Who do you hire?
 - How do you implement the process you want to follow?
 - Who facilitates a retrospective?
 - What analytics data do you gather?
-*** So how do you get feedback on your decisions?
+** So how do you get feedback on your decisions?
 The world's really quite complex, so it's rather hard to have anything better than heuristics from years of doing things, screwing up and paying attention.
 
 E.g.:
@@ -69,10 +73,11 @@ E.g.:
 ** Enter Go
 A 3,000-year-old Chinese board game all about strategy
 
-| Activity         | Duration           |
-|------------------+--------------------|
-| Game of Go       | 10-90 minutes      |
-| Software project | 1 month - ?? years |
+|             Activity             |      Duration      |
+|----------------------------------|--------------------|
+| Game of Go                       | 10-90 minutes      |
+| Software project                 | 1 month - ?? years |
+| Well hang on a second let me see |                    |
 
 Play Go: get a much shorter feedback loop on your decision-making process.
 *** Here's the board at the start of the game
